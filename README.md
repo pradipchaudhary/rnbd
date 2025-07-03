@@ -14,35 +14,8 @@ RNBD (Ram Narayan Bhatinbati Devi) is a personal web-based project designed to:
 
 > “In their memories, we find strength. In their stories, we find our roots.”
 
-## 🚀 Live Preview
-
-🔗 [Visit Project Live (if hosted)](https://your-live-demo-url.com)  
-📁 [Project Repository](https://github.com/pradipchaudhary/rnbd)
-
-## 🛠️ Technologies Used
-
-- HTML5 / CSS3  
-- JavaScript (optional)  
-- Git & GitHub for version control  
-- [Any framework if used – e.g., React, Next.js, etc.]
 
 
-
-## 📸 Screenshots
-
-<!-- Add screenshots here -->
-![Homepage Screenshot](path-to-screenshot.png)
-
-## 🧑‍💻 How to Use
-
-Clone the repository:
-
-```bash
-git clone https://github.com/pradipchaudhary/rnbd.git
-cd rnbd
-````
-
-Open `index.html` in your browser to view the tribute page.
 
 ## 🙏 Inspiration
 
