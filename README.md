@@ -1,8 +1,4 @@
-Here’s a professional `README.md` file for your GitHub repository: [rnbd](https://github.com/pradipchaudhary/rnbd), titled **"RNBD – Love for Grandparents"**. This template includes project overview, installation, usage, contribution, and licensing sections:
 
----
-
-```markdown
 # ❤️ RNBD – Love for Grandparents
 
 A heartfelt tribute to **Ram Narayan Chaudhary** and **Bhatinbati Devi Chaudhary**, this project is a digital space dedicated to preserving the love, memories, and legacy of beloved grandparents. Built with ❤️ by Pradip Chaudhary.
