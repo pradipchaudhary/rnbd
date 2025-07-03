@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/pradipchaudhary/rnbd/blob/master/assets/banner.jpg?raw=true" alt="RNBD Banner" />
+  <img src="https://github.com/pradipchaudhary/rnbd/blob/master/rnbd-banner.jpg?raw=true" alt="RNBD Banner" />
 </p>
 
 # 🌺 RNBD – Love for Grandparents
