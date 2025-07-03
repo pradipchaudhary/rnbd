@@ -1,13 +1,8 @@
-# Next.js 15 Lab 🧪
+# RNBD
 
-A hands-on repo to explore, test, and document the latest features in Next.js 15.
+love for grand parent
 
-## 🚀 Features Covered
+Ram Narayan Chaudhary
+Bhatinbati Devi Chaudhary
 
-- 🔥 Turbopack (dev server)
-- ⚡ Partial Prerendering (PPR)
-- 🧠 React 19 Integration
-- 🔄 Caching changes (`no-store` by default)
-- 🛠️ TypeScript config support
-- 📊 Instrumentation and request hooks
 
