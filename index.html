@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RNBD – Love for Grandparents</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body class="min-h-screen bg-white text-neutral-800 font-sans antialiased selection:bg-rose-500/20 selection:text-rose-600">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/80 border-b border-neutral-200">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-xl font-semibold tracking-tight" aria-label="RNBD Home">
+        <span class="text-rose-600">RN</span>BD
+      </a>
+      <nav class="hidden md:flex gap-8 text-sm font-medium">
+        <a href="#overview" class="hover:text-rose-600 transition-colors">Overview</a>
+        <a href="#gallery" class="hover:text-rose-600 transition-colors">Gallery</a>
+        <a href="#stories" class="hover:text-rose-600 transition-colors">Stories</a>
+        <a href="#timeline" class="hover:text-rose-600 transition-colors">Timeline</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden p-2 rounded-md hover:bg-neutral-100" aria-label="Open Menu">
+        <i data-lucide="menu" class="w-5 h-5"></i>
+      </button>
+    </div>
+    <!-- Mobile nav -->
+    <div id="mobileNav" class="md:hidden px-6 pb-6 hidden">
+      <a href="#overview" class="block py-2 hover:text-rose-600">Overview</a>
+      <a href="#gallery" class="block py-2 hover:text-rose-600">Gallery</a>
+      <a href="#stories" class="block py-2 hover:text-rose-600">Stories</a>
+      <a href="#timeline" class="block py-2 hover:text-rose-600">Timeline</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 pt-24 pb-32 text-center">
+      <h1 class="scroll-anim text-4xl md:text-6xl font-semibold tracking-tight mb-6">
+        Love That Echoes Forever
+      </h1>
+      <p class="scroll-anim max-w-3xl mx-auto text-lg text-neutral-600 mb-10">
+        “Some hearts never stop beating — they echo forever in our memories.”
+      </p>
+      <div class="scroll-anim flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#stories" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-rose-600 hover:bg-rose-500 text-white font-medium transition-colors">
+          <i data-lucide="book-open" class="w-4 h-4"></i> Read Stories
+        </a>
+        <a href="#gallery" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-md border border-neutral-300 hover:border-rose-500 hover:bg-neutral-50 font-medium transition-colors">
+          <i data-lucide="image" class="w-4 h-4"></i> View Gallery
+        </a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1592841925941-7bcad173f5cc?auto=format&fit=crop&w=1400&q=80"
+           alt="Grandparents holding hands"
+           class="scroll-anim max-w-4xl mx-auto mt-16 rounded-xl shadow-lg ring-1 ring-neutral-200">
+    </div>
+    <!-- Subtle background bloom -->
+    <div aria-hidden="true" class="absolute inset-0 -z-10">
+      <div style="background:radial-gradient(ellipse at center,rgba(244,63,94,0.08),transparent 70%)"
+           class="w-full h-full"></div>
+    </div>
+  </section>
+
+  <!-- Overview -->
+  <section id="overview" class="max-w-7xl mx-auto px-6 py-24 border-t border-neutral-200">
+    <h2 class="scroll-anim text-3xl font-semibold tracking-tight text-center mb-12">RNBD • A Living Memorial</h2>
+    <div class="grid md:grid-cols-2 gap-12">
+      <p class="scroll-anim text-neutral-600 leading-relaxed">
+        RNBD (Ram Narayan & Bhatinbati Devi) is a heartfelt digital shrine preserving the legacy of two remarkable souls. From cherished photographs to handwritten letters, everything here is curated with love by their grandson, <span class="text-rose-600 font-medium">Pradip Chaudhary</span>, so future generations can feel their warmth and wisdom.
+      </p>
+      <ul class="scroll-anim space-y-4">
+        <li class="flex items-start gap-4">
+          <i data-lucide="heart" class="w-6 h-6 text-rose-600 mt-1"></i>
+          <span>Honour enduring love and resilience</span>
+        </li>
+        <li class="flex items-start gap-4">
+          <i data-lucide="feather" class="w-6 h-6 text-rose-600 mt-1"></i>
+          <span>Preserve stories, wisdom & cherished memories</span>
+        </li>
+        <li class="flex items-start gap-4">
+          <i data-lucide="globe" class="w-6 h-6 text-rose-600 mt-1"></i>
+          <span>Accessible anywhere, for everyone, forever</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="max-w-7xl mx-auto px-6 py-24 border-t border-neutral-200">
+    <h2 class="scroll-anim text-3xl font-semibold tracking-tight text-center mb-12">Photo Gallery</h2>
+    <div class="scroll-anim grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <img src="https://images.unsplash.com/photo-1543353071-873f17a7a088?auto=format&fit=crop&w=600&q=80" alt="Grandparents wedding" class="rounded-lg shadow ring-1 ring-neutral-200 hover:ring-rose-500 transition">
+      <img src="https://images.unsplash.com/photo-1561508867-8cba1a5f6405?auto=format&fit=crop&w=600&q=80" alt="Family gathering" class="rounded-lg shadow ring-1 ring-neutral-200 hover:ring-rose-500 transition">
+      <img src="https://images.unsplash.com/photo-1533616671417-29d6f33e02b5?auto=format&fit=crop&w=600&q=80" alt="Grandfather in field" class="rounded-lg shadow ring-1 ring-neutral-200 hover:ring-rose-500 transition">
+      <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=80" alt="Grandmother smiling" class="rounded-lg shadow ring-1 ring-neutral-200 hover:ring-rose-500 transition">
+      <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?auto=format&fit=crop&w=600&q=80" alt="Grandparents with grandchildren" class="rounded-lg shadow ring-1 ring-neutral-200 hover:ring-rose-500 transition">
+      <img src="https://images.unsplash.com/photo-1495567720989-cebdbdd97913?auto=format&fit=crop&w=600&q=80" alt="Old letter" class="rounded-lg shadow ring-1 ring-neutral-200 hover:ring-rose-500 transition">
+    </div>
+  </section>
+
+  <!-- Stories -->
+  <section id="stories" class="max-w-7xl mx-auto px-6 py-24 border-t border-neutral-200">
+    <h2 class="scroll-anim text-3xl font-semibold tracking-tight text-center mb-12">Life Stories & Letters</h2>
+    <div class="grid md:grid-cols-2 gap-12">
+      <div class="scroll-anim bg-neutral-50 border border-neutral-200 p-8 rounded-xl">
+        <h3 class="font-semibold mb-4 tracking-tight">A Lesson in Patience</h3>
+        <p class="text-neutral-600 leading-relaxed mb-4">
+          Grandfather Ram Narayan would spend hours teaching us how to plant rice saplings, reminding us that growth takes patience and care…
+        </p>
+        <p class="text-neutral-500 text-sm">— Pradip</p>
+      </div>
+      <div class="scroll-anim md:delay-100 bg-neutral-50 border border-neutral-200 p-8 rounded-xl">
+        <h3 class="font-semibold mb-4 tracking-tight">Grace in Kindness</h3>
+        <p class="text-neutral-600 leading-relaxed mb-4">
+          Grandmother Bhatinbati never missed a chance to share a warm meal with travelers. Her handwritten recipes still fill our kitchen with aromas of love…
+        </p>
+        <p class="text-neutral-500 text-sm">— Family Journal, 1998</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section id="timeline" class="max-w-7xl mx-auto px-6 py-24 border-t border-neutral-200">
+    <h2 class="scroll-anim text-3xl font-semibold tracking-tight text-center mb-12">Timeline of Cherished Moments</h2>
+    <div class="scroll-anim relative">
+      <div class="border-l-2 border-rose-600/40 ml-3 space-y-12">
+        <!-- Item -->
+        <div class="pl-8 relative">
+          <span class="absolute -left-[11px] top-1 w-5 h-5 bg-rose-600 rounded-full"></span>
+          <p class="font-medium tracking-tight">1952 • Wedding Day</p>
+          <p class="text-neutral-600">A humble ceremony beneath a banyan tree marked the start of a lifelong partnership.</p>
+        </div>
+        <!-- Item -->
+        <div class="pl-8 relative">
+          <span class="absolute -left-[11px] top-1 w-5 h-5 bg-rose-600 rounded-full"></span>
+          <p class="font-medium tracking-tight">1976 • New Home</p>
+          <p class="text-neutral-600">They built their clay-brick house with their own hands, brick by loving brick.</p>
+        </div>
+        <!-- Item -->
+        <div class="pl-8 relative">
+          <span class="absolute -left-[11px] top-1 w-5 h-5 bg-rose-600 rounded-full"></span>
+          <p class="font-medium tracking-tight">2001 • First Grandchild Graduates</p>
+          <p class="text-neutral-600">Pride lit their faces as Pradip walked across the stage, diploma in hand.</p>
+        </div>
+        <!-- Item -->
+        <div class="pl-8 relative">
+          <span class="absolute -left-[11px] top-1 w-5 h-5 bg-rose-600 rounded-full"></span>
+          <p class="font-medium tracking-tight">2018 • Farewell</p>
+          <p class="text-neutral-600">Though they departed this world, their love remains woven into every family story.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech & License -->
+  <section class="max-w-7xl mx-auto px-6 py-24 border-t border-b border-neutral-200">
+    <div class="scroll-anim text-center">
+      <h2 class="text-3xl font-semibold tracking-tight mb-6">Built with Heart & Simplicity</h2>
+      <p class="text-neutral-600 mb-8">HTML5, CSS3, a sprinkle of JavaScript, and endless love.</p>
+      <p class="text-sm text-neutral-500">MIT License — because memories should always remain free.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white text-neutral-500 text-sm">
+    <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
+      <p>&copy; <span id="year"></span> RNBD • Pradip Chaudhary, Nepal</p>
+      <div class="flex gap-6">
+        <a href="https://github.com/pradipchaudhary" class="hover:text-neutral-800 transition-colors flex items-center gap-2">
+          <i data-lucide="github" class="w-4 h-4"></i>GitHub
+        </a>
+        <a href="mailto:hello@pradipchaudhary.dev" class="hover:text-neutral-800 transition-colors flex items-center gap-2">
+          <i data-lucide="mail" class="w-4 h-4"></i>Contact
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Mobile nav toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileNav = document.getElementById('mobileNav');
+    menuBtn.addEventListener('click', () => mobileNav.classList.toggle('hidden'));
+
+    // Lucide icons
+    lucide.createIcons();
+
+    // Scroll fade-in
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('opacity-100', 'translate-y-0');
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.scroll-anim').forEach(el => {
+      el.classList.add('opacity-0', 'translate-y-4', 'transition', 'duration-1000');
+      observer.observe(el);
+    });
+
+    // Current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
