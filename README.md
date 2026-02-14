@@ -1,69 +1,36 @@
-<p align="center">
-  <img src="https://github.com/pradipchaudhary/rnbd/blob/master/rnbd-banner.jpg?raw=true" alt="RNBD Banner" />
-</p>
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# 🌺 RNBD – Love for Grandparents
+## Getting Started
 
-> _“Some hearts never stop beating — they echo forever in our memories.”_
+First, run the development server:
 
-A timeless digital tribute to two extraordinary souls — **Ram Narayan Chaudhary** and **Bhatinbati Devi Chaudhary** — who embodied love, wisdom, and resilience. This project is a living memorial, crafted with affection by their grandson, [Pradip Chaudhary](https://github.com/pradipchaudhary), to honor their legacy and keep their spirit alive for generations to come.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🌟 Overview
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-**RNBD** (Ram Narayan Bhatinbati Devi) is more than just a website — it is a digital shrine of remembrance and celebration. It aims to:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- 🌿 **Honor** the enduring legacy of two beloved grandparents  
-- 📜 **Preserve** stories, wisdom, and cherished memories for the future  
-- 🖼️ **Showcase** photographs, personal letters, and life moments  
-- 💖 **Inspire** others to treasure their own elders and family history  
+## Learn More
 
-> _“In their memories, we find strength. In their stories, we discover who we are.”_
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## ✨ Features
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- 📸 Elegant photo gallery and memory lane  
-- 📝 Life stories and handwritten notes archive  
-- 🧭 Timeline of life events and family tree  
-- 🌐 Accessible from anywhere, forever  
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 🙏 Inspiration
-
-This labor of love is inspired by the selfless lives and beautiful hearts of:
-
-- **Ram Narayan Chaudhary** – A pillar of integrity, patience, and hard work  
-- **Bhatinbati Devi Chaudhary** – A nurturing soul who taught us grace and kindness
-
-Their blessings are the foundation of this project, and their love continues to guide every step of our lives.
-
-> _“They may have left this world, but they will never leave our hearts.”_
-
----
-
-## 🔧 Tech Stack
-
-- 🧱 HTML5 & CSS3  
-- 🌈 (Optional: Tailwind, Bootstrap, etc.)  
-- ✨ JavaScript (for interactivity if needed)  
-- 🔗 Git & GitHub for version control
-
----
-
-## 📜 License
-
-Licensed under the [MIT License](LICENSE) — because love and memories should always remain free.
-
----
-
-> _“Love transcends time. Let this page be a reminder that some souls never truly leave us.”_
-
-Made with infinite love by  
-👨‍💻 [Pradip Chaudhary](https://github.com/pradipchaudhary)  
-🌏 Nepal  
-🕊️ _In memory of Grandfather & Grandmother_
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
